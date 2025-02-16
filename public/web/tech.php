@@ -1,10 +1,8 @@
-<?php 
-
-?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
+    <base href="../">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
@@ -12,7 +10,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=Roboto:ital,wght@1,300&display=swap"
         rel="stylesheet">
-    <link rel="icon" type="image/jpg" href="images\ganyuChibi.jpg">
+    <link rel="icon" type="image/jpg" href="/images/ganyuChibi.jpg">
     <title>Ganyu Web</title>
 </head>
 
@@ -27,9 +25,9 @@
                 <span class="bar"></span>
             </div>
             <ul class="navbar_menu">
-                <li class="navbar_item"><a href="/web/home.php" class="navbar_link">Home</a></li>
-                <li class="navbar_item"><a href="/web/tech.php" class="navbar_link">Tech</a></li>
-                <li class="navbar_item"><a href="/web/product.php" class="navbar_link">Products</a></li>
+                <li class="navbar_item"><a href="./web/home.php" class="navbar_link">Home</a></li>
+                <li class="navbar_item"><a href="./web/tech.php" class="navbar_link">Tech</a></li>
+                <li class="navbar_item"><a href="./web/product.php" class="navbar_link">Products</a></li>
                 <li class="navbar_btn"><a href="#signup" class="button">Sign Up</a></li>
             </ul>
         </div>
@@ -45,7 +43,7 @@
                 <button class="main_btn"><a href="/"></a>Get Started</button>
             </div>
             <div class="main_img_container">
-                <img src="images/ganyu.jpeg" alt="pic" id="main_img">
+                <img src="./images/ganyuTech.jpg" alt="pic" id="main_img">
             </div>
         </div>
     </div>

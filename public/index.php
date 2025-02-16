@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-    <base href="../">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
@@ -25,9 +24,9 @@
                 <span class="bar"></span>
             </div>
             <ul class="navbar_menu">
-                <li class="navbar_item"><a href="/web/home.html" class="navbar_link">Home</a></li>
-                <li class="navbar_item"><a href="/web/tech.html" class="navbar_link">Tech</a></li>
-                <li class="navbar_item"><a href="#product" class="navbar_link">Products</a></li>
+                <li class="navbar_item"><a href="./web/home.php" class="navbar_link">Home</a></li>
+                <li class="navbar_item"><a href="./web/tech.php" class="navbar_link">Tech</a></li>
+                <li class="navbar_item"><a href="./web/product.php" class="navbar_link">Products</a></li>
                 <li class="navbar_btn"><a href="#signup" class="button">Sign Up</a></li>
             </ul>
         </div>
@@ -43,7 +42,7 @@
                 <button class="main_btn"><a href="/"></a>Get Started</button>
             </div>
             <div class="main_img_container">
-                <img src="/images/ganyuHome.jpg" alt="pic" id="main_img">
+                <img src="images/ganyu.jpeg" alt="pic" id="main_img">
             </div>
         </div>
     </div>
@@ -127,6 +126,26 @@
         </div>
     </div>
     <script src="app.js"></script>
+    <script>
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "firebase/app";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+
+        // Your web app's Firebase configuration
+        const firebaseConfig = {
+        apiKey: "AIzaSyDaLi5P0ZlQH8z2jlVauoKhbzcOJMhWE8Y",
+        authDomain: "dohoangduc20225286.firebaseapp.com",
+        databaseURL: "https://dohoangduc20225286-default-rtdb.asia-southeast1.firebasedatabase.app",
+        projectId: "dohoangduc20225286",
+        storageBucket: "dohoangduc20225286.firebasestorage.app",
+        messagingSenderId: "695377219618",
+        appId: "1:695377219618:web:a9e4fbfd6a7cdeebdbfa7b"
+        };
+
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+    </script>
 </body>
 
 </html>

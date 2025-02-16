@@ -25,9 +25,9 @@
                 <span class="bar"></span>
             </div>
             <ul class="navbar_menu">
-                <li class="navbar_item"><a href="/web/home.html" class="navbar_link">Home</a></li>
-                <li class="navbar_item"><a href="/web/tech.html" class="navbar_link">Tech</a></li>
-                <li class="navbar_item"><a href="#product" class="navbar_link">Products</a></li>
+                <li class="navbar_item"><a href="./web/home.php" class="navbar_link">Home</a></li>
+                <li class="navbar_item"><a href="./web/tech.php" class="navbar_link">Tech</a></li>
+                <li class="navbar_item"><a href="./web/product.php" class="navbar_link">Products</a></li>
                 <li class="navbar_btn"><a href="#signup" class="button">Sign Up</a></li>
             </ul>
         </div>
@@ -43,7 +43,7 @@
                 <button class="main_btn"><a href="/"></a>Get Started</button>
             </div>
             <div class="main_img_container">
-                <img src="/images/ganyu.jpg" alt="pic" id="main_img">
+                <img src="./images/ganyuHome.jpg" alt="pic" id="main_img">
             </div>
         </div>
     </div>
